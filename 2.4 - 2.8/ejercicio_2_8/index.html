@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Profesional</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="algo">Acerca de mi</a></li>
+                <li><a href="algo">Proyectos</a></li>
+                <li><a href="algo">Contacto</a></li>
+            </ul>
+        </nav>
+</header>
+<main>
+    <section id="presentacion">
+        <img src="foto.jpeg" alt="foto de frente del creador de la página" title="foto del creador" width="100" height="100">
+        <h1>Hola, soy Mateo Rovera</h1>
+        <p>Soy un estudiante de UTU informatica apasionado por la tecnología y la creación de soluciones digitales innovadoras.</p>
+    </section>
+    <section id="tabla">
+        <h2>Horario Semanal</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>7:45</td>
+                    <td>Full Stack</td>
+                    <td>Full Stack</td>
+                </tr>
+                <tr>
+                    <td>8:30</td>
+                    <td>Full Stack</td>
+                    <td>Full Stack</td>
+                </tr>
+                <tr>
+                    <td>9:25</td>
+                    <td>Full Stack</td>
+                    <td>UTU-LAB</td>
+                </tr>
+                <tr>
+                    <td>10:10</td>
+                    <td></td>
+                    <td>UTU-LAB</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="lista">
+        <h2>Lista de hablidades</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>Diseño Web</li>
+            <li>Resolución de problemas</li>
+            <li>Trabajo colaborativo</li>
+        </ul>
+    </section>
+    <section id="formulario">
+        <h3>Formulario de Contacto</h3>
+        <form action="/enviar" method="POST">
+    <!-- pedirle el nombre-->
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required />
+    <!-- pedirle el correo-->
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="correo" required />
+    <!-- pedirle un mensaje-->
+            <label for="mensaje">Escribí un mensaje si querés:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+    <!-- boton de enviar-->
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <p>©2026 Mateo Rovera. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>

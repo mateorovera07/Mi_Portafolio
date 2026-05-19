@@ -1,0 +1,15 @@
+/* estilo para el cuerpo*/
+body {
+    background-color: wheat;
+    font-family: 'Times New Roman', serif;
+}
+/* estilo para el titulo*/
+h1 {
+    color: rgb(57, 87, 116);
+    font-size: 32px;
+}
+/* estilo para los parrafos*/
+p {
+    color: #000000;
+    line-height: 1.5;
+}

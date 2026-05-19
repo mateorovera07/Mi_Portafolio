@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+        justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+    margin: 20px;
+}
+.item {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.azul {
+    height: 60px; 
+    background: blue;
+}
+.verde {
+    height: 150px; 
+    background: green;
+}
+.naranja {
+    height: 100px; 
+    background: orange;
+}
+.rojo {
+    height: 200px; 
+    background: red;
+}

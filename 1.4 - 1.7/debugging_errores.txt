@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mi Portfolio</title>
+<body>
+<Header>
+<h1>Juan Pérez</h1>
+</header>
+<main>
+<p>Hola, soy estudiante de programación
+<p>Me gusta crear sitios web</p>
+</main>
+</html>
+<!-- Error 1: Linea 2 - No especifica el idioma del documento - <html lang="es"> -->
+<!-- Error 2: Linea 6 - No cerró el head - </head><body> -->
+<!-- Error 3: Linea 7 - Empieza con mayuscula en vez de minuscula - <header> -->
+<!-- Error 4: Linea 11 - No cerró el parrafo - ...programacion</p> -->
+<!-- Error 5: Linea 14 - No cerró el body - </body></html> -->

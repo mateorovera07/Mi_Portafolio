@@ -1,0 +1,32 @@
+body {
+    background-color: rgba(14, 76, 64, 0.625);
+}
+
+.hero {
+    grid-area: hero;
+    background-color: red;
+}
+.sidebar {
+    grid-area: sidebar;
+    background-color: blue;
+}
+.content {
+    grid-area: content;
+    background-color: green;
+}
+.aside {
+    grid-area: aside;
+    background-color: purple;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 15px;
+  height: 200px;
+  grid-template-areas:
+    "hero hero sidebar"
+    "hero hero sidebar"
+    "content content aside";
+}

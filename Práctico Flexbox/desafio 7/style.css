@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(38, 179, 179);
+    color: rgb(39, 77, 97);
+    padding: 20px;
+    margin: 20px;
+}
+.logo {
+    font-size: 30px;
+    color: rgb(39, 77, 97);
+    font-weight: bold;
+}
+.links {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: bold;
+}
+.boton {
+    background-color: rgb(39, 77, 97);
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}

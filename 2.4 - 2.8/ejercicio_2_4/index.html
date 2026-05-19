@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Up ej4</title>
+</head>
+<body>
+    <form action="/enviar" method="POST">
+    <!-- pedirle el nombre-->
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" required />
+    <!-- pedirle el correo-->
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="correo" required />
+    <!-- pedirle el celu-->
+    <label for="tel">Teléfono:</label>
+    <input type="tel" id="tel" name="telefono" placeholder="099 999 999" />
+    <!-- pedirle que elija 4 opciones-->
+    <label for="asunto">Asunto:</label>
+    <select id="asunto" name="asunto">
+        <option value="web">Desarrollo Web</option>
+        <option value="app">Apps Móviles</option>
+        <option value="mantenimiento">Soporte Técnico</option>
+        <option value="consultoria">Consultoría IT</option>
+    </select>
+    <!-- pedirle un mensaje-->
+    <label for="mensaje">Escribí un mensaje si querés:</label>
+    <textarea id="mensaje" name="mensaje"></textarea>
+    <!-- boton de enviar-->
+    <button type="submit">Enviar</button>
+</form>
+</body>
+</html>

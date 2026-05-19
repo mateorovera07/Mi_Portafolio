@@ -1,0 +1,54 @@
+body {
+    background-color: rgba(14, 76, 64, 0.625);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 400px;
+  padding: 20px;
+}
+.a {
+  background-color: #593f0f;
+  color: white;
+  padding: 10px;
+}
+
+.start-start {
+    justify-self: start;
+    align-self: start;
+}
+.center-start {
+    justify-self: center;
+    align-self: start;
+}
+.end-start {
+    justify-self: end;
+    align-self: start;
+}
+
+.start-center {
+    justify-self: start;
+    align-self: center;
+}
+.center-center {
+    justify-self: center;
+    align-self: center;
+}
+.end-center {
+    justify-self: end;
+    align-self: center;
+}
+.start-end {
+    justify-self: start;
+    align-self: end;
+}
+.center-end {
+    justify-self: center;
+    align-self: end;
+}
+.end-end {
+    justify-self: end;
+    align-self: end;
+}

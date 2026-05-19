@@ -1,0 +1,66 @@
+/* estilo del body */
+body {
+    font-family: 'Times New Roman', Arial;
+    background-color: white;
+    color: black;
+    line-height: 1.5;
+    padding-top: 50px;
+}
+/* estilo para header y navegacion*/
+header {
+    background: #2a5298;
+    color: white;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+}
+/* estilo del main */
+main {
+    padding: 20px;
+}
+/* estilo de las secciones */
+section {
+    padding: 25px;
+    box-shadow: 0 4px 6px;
+}
+/* estilo de la imagen y tituls */
+img {
+    border-radius: 50%;
+    margin-left: 600px;
+}
+h1, h2, h3 {
+    color: #1e3c72;
+    text-align: center;
+}
+/* estilo de la tabla*/
+table {
+    width: 100%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+th {
+    background-color: #2a5298;
+    color: white;
+}
+/* estilo del formulario */
+label {
+    margin: 10px;
+}
+input, textarea {
+    padding: 10px;
+}
+button {
+    background-color: #1e3c72;
+    color: white;
+}

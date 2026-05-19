@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-color: beige;
+    padding: 20px;
+}
+.buscar {
+    flex: 1;
+}
+.barra {
+    background: rgb(195, 195, 144);
+    padding: 10px;
+    width: 60%;
+}
+.logo { 
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    color: rgb(195, 195, 144);
+}
+.perfil {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}

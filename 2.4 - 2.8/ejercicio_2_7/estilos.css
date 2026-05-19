@@ -1,0 +1,20 @@
+/* Por etiqueta */
+h2 {
+    color: blue;
+}
+/* Por clase */
+.destacado {
+    background-color: rgb(255, 255, 0);
+}
+/* Por id */
+#principal {
+    border: 2px solid #FF5733;
+}
+/* Por etiqueta */
+p {
+    color: rgba(115, 152, 60, 0.601);
+}
+/* Diferencia entre class e id:
+    Class: Lo utilizamos para usar un mismo estilo en un grupo de elementos, asi lo reutilizamos.
+    Id: Lo utilizamos unicamente para un elemento el cual no vamos a repetir, como un header o footer. 
+*/
