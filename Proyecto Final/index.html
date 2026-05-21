@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Profesional - Mateo Rovera</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+</header>
+<main>
+    <section id="sobre-mi">
+        <div class="sobre-mi-container">
+            <img src="foto.jpeg" alt="foto de frente del creador de la página" title="foto del creador" width="150" height="150">
+            <h1>Hola, soy Mateo Rovera</h1>
+            <p>Soy un estudiante de UTU Informática apasionado por la tecnología, el desarrollo Full Stack y la creación de soluciones digitales innovadoras.</p>
+        </div>
+        <div class="habilidades">
+            <h2>Mis habilidades</h2>
+            <ul>
+                <li>HTML5 / CSS3</li>
+                <li>Diseño Web Responsive</li>
+                <li>Flexbox y CSS Grid</li>
+                <li>Resolución de problemas</li>
+                <li>Trabajo colaborativo</li>
+            </ul>
+        </div>
+    </section>
+    <section id="proyectos">
+        <h2>Mis proyectos</h2>
+        <div class="galeria-proyectos">
+            <div class="tarjeta-proyectos">
+                <h3>Práctico FlexBox</h3>
+                <p>Estructuras y layouts flexibles utilizando propiedades de Flexbox.</p>
+                <a href="#" class="btn-proyectos">Ver proyecto (en un futuro)</a>
+            </div>
+            <div class="tarjeta-proyectos">
+                <h3>Práctico CSS Grid</h3>
+                <p>Maquetación de grillas complejas y alineación de elementos con Grid.</p>
+                <a href="#" class="btn-proyectos">Ver proyecto (en un futuro)</a>
+            </div>
+            <div class="tarjeta-proyectos">
+                <h3>Ejercicios de Maquetación Semántica</h3>
+                <p>Colección de desafíos estructurales usando HTML5 estándar.</p>
+                <a href="#" class="btn-proyectos">Ver proyecto (en un futuro)</a>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div class="contacto-container">
+            <form action="/enviar" method="POST" class="formulario-contacto">
+            <h3>Mandame un mensaje</h3>
+
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required />
+  
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="correo" required />
+
+            <label for="mensaje">Enviar Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="redes-sociales">
+            <h3>Redes sociales</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/matee__1891?igsh=cWQ0dTZtdDJneTZi" target="_blank">Instagram</a></li>
+                <li><a href="https://github.com/mateorovera07" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+        </div>
+    </section>
+</main>
+<footer>
+        <p>© 2026 Mateo Rovera. Todos los derechos reservados.</p>
+        <p>Estudiante de UTU Informática - Montevideo, Uruguay</p>
+</footer>
+</body>
+</html>
